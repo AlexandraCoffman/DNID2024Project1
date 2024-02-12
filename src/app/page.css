@@ -1,0 +1,79 @@
+.card {
+  background-color: #14311047;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px; /* Adjust margin as needed */
+  font-weight: bold;
+  text-align: center;
+}
+.introduction {
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: black;
+
+  margin-bottom: 20px;
+}
+
+.introduction-card {
+  background-color: #14311047; /* Change the background color */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-content {
+  max-width: 100%; /* Adjust the width as needed */
+}
+.indent {
+  text-indent: 1.5em; /* Adjust the indentation size as needed */
+  margin-bottom: 1em;
+}
+.codeindent {
+  text-indent: 1.5rem;
+}
+.doubleindent {
+  text-indent: 3rem; /* Adjust the indentation size as needed */
+}
+.tripleindent {
+  text-indent: 4.5rem; /* Adjust the indentation size as needed */
+}
+.container {
+  max-width: 1000px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.code {
+  background-color: darkseagreen;
+  margin-bottom: 20px;
+}
+
+#code-div > p {
+  margin-left: 10px;
+}
+.transformation {
+  color: black;
+  margin-bottom: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.stateprice-card{
+  background-color: #14311047 ;
+}
+.title{
+  font-weight: bold;
+  color: black;
+  margin: 10px;
+}
+

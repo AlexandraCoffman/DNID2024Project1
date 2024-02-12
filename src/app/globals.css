@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 245, 242, 240; /* Darker green start */
+  --background-end-rgb: 245, 242, 240; /* Darker green end */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--background-start-rgb), 1),
+    rgba(var(--background-end-rgb), 1)
+  ); /* Use linear gradient for the background */
+  font-family: "Times New Roman", Times, serif; /* Set the font-family */
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-margin-top: -50px;
+}
